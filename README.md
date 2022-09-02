@@ -57,8 +57,7 @@ Infrastructure has been hosted on AWS Cloud by using various AWS services(as see
 
 ## Presentation
 
-[<img src="assets/thumb.png" width="50%">](https://gitlab.aws.dev/natsec-emergingtech/translate-UI/-/blob/main/assets/video.mp4 "User Interface for Translate Service")
-<br>_Broadcast: https://broadcast.amazon.com/videos/580192?ref=personal_
+[<img src="assets/thumb.png" width="50%">](https://github.com/ukpatell/AWS-Translate-Service/blob/main/assets/AWS-Translate-Service-Presentation.mp4 "User Interface for Translate Service")
 
 ## Roadmap
 
