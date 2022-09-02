@@ -1,0 +1,86 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 4%;
+  /* border-radius: 4px; */
+}
+
+.from-lang-control {
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.to-lang-control {
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.lang-buttons button {
+  background-color: #33957f;
+  color: white;
+  border-style: none;
+  font-size: medium;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 6px;
+  padding: 10px 8px 10px 14px;
+}
+
+
+
+
+/* Switch button css */
+#switch-btn {
+  background-color: transparent;
+  border-style: none;
+  margin-left: 20px;
+}
+
+.arrow-4 {
+  width: 40px;
+  height: 30px;
+  display: grid;
+}
+
+.arrow-4:before,
+.arrow-4:after {
+  content: "";
+  grid-area: 1/1;
+  background: #33957f;
+  clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
+  animation: a4 .5s infinite alternate;
+}
+
+.arrow-4:after {
+  --s: -1;
+}
+
+@keyframes a4 {
+  0% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(4px)
+  }
+
+  100% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(-4px)
+  }
+}
+
+.language-picker {
+  position: relative;
+}
+
+.language-picker select {
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  border-style: none;
+  border-radius: 6px;
+  position: relative;
+  line-height: 1;
+  z-index: 10;
+  font-size: 1em;
+  text-align: center;
+}

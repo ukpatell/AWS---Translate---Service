@@ -1,0 +1,23 @@
+.Other {
+    width: 1300px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    padding: 1%;
+    box-shadow: rgba(99, 99, 99, 0.2) 1px 1px 4px 1px;
+}
+
+.cards button {
+    padding: 10px 8px 10px 14px;
+    background: #33957f;
+    color: #fff;
+    border-style: none;
+    border-radius: 6px;
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+}

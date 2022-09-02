@@ -1,0 +1,11 @@
+@font-face {
+  font-family: amber;
+  src: url(./assets/fonts/webfonts/AmazonEmberDisplay_W_Md.woff);
+}
+
+* {
+  font-family: amber;
+  text-align: center;
+}
+
+

@@ -1,0 +1,54 @@
+.Estimate {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-card select {
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border-style: none;
+    border-radius: 6px;
+    position: relative;
+    line-height: 1;
+    z-index: 10;
+    font-size: 1em;
+    text-align: center;
+    margin-right: 5%;
+    width: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.service-card input {
+    border-radius: 1%;
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    width: 50%;
+    font-size: medium;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.service-card label {
+    width: 25%;
+}
+
+.Estimate button {
+    margin-top: 3%;
+    min-width: 15%;
+    width: auto;
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border-color: #33957f;
+    border-radius: 6px;
+    color: #33957f;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}

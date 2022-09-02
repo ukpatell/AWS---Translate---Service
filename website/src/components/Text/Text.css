@@ -1,0 +1,137 @@
+.translate-btn-class {
+  display: flex;
+  margin: 2%;
+}
+
+/* .translate-btn{
+    background-color: #33957f;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 6px;
+    padding: 10px 8px 10px 14px;
+    font-size: 20px;
+  } */
+
+/* Output Box */
+.output-box {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.output-box textarea {
+  text-align: left;
+}
+
+.t-from {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 85px;
+}
+
+.t-to {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-result-box {
+  display: flex;
+  width: 600px;
+  margin-top: 1%;
+  height: 50vh;
+  border-style: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 6px;
+  padding: 1%;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+  resize: none;
+  font-size: large;
+}
+
+#the-count {
+  float: right;
+  padding: 0.1rem 0 0 0;
+  font-size: 0.875rem;
+  color: rgb(174, 171, 171);
+  font-size: small;
+}
+
+.translate-to-response {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.translateBtn {
+  background-color: #33957f;
+  color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 6px;
+  padding: 10px 8px 10px 14px;
+  margin-top: 2%;
+  width: 10%;
+  font-size: 20px;
+}
+
+.copy-btn {
+  display: inline-flex;
+  padding: 12px 24px;
+  border: 1px solid #33957f;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  color: #33957f;
+  z-index: 1;
+  margin: 1%;
+}
+
+.copy-btn:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.copy-btn:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #39bda7;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.copy-btn:hover {
+  color: #ffffff;
+  border: 1px solid #39bda7;
+}
+
+.copy-btn:hover:before {
+  top: -35%;
+  background-color: #39bda7;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.copy-btn:hover:after {
+  top: -45%;
+  background-color: #39bda7;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
